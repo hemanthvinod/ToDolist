@@ -31,14 +31,13 @@ function populate() {
 
 function check(item) {
   if (item.checked) {
-    // alert("hi");
     count++;
   } else {
     count--;
   }
   var promise = new Promise(function (resolve, reject) {
     if (count == 5) {
-      resolve("congratulations");
+      resolve("congratulations, completed 5 tasks");
     } else {
       reject();
     }
