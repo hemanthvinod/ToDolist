@@ -37,7 +37,7 @@ function check(item) {
   }
   var promise = new Promise(function (resolve, reject) {
     if (count == 5) {
-      resolve("congratulations, completed 5 tasks");
+      resolve("Congrats, you have successfully completed 5 tasks");
     } else {
       reject();
     }
